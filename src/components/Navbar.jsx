@@ -5,7 +5,7 @@ import { IoMenu } from "react-icons/io5";
 
 const Navbar = () => {
     return (
-        <div className="py-3 bg-white">
+        <div className="py-3 bg-white/80 sticky top-0 backdrop-blur-md">
             <Container>
                 <nav className="flex justify-between items-center">
                     {/* desktop nav start */}
