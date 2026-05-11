@@ -2,7 +2,7 @@ import { Separator } from "@heroui/react";
 
 const Banner = () => {
     return (
-        <div className="bg-[url('/assets/banner.png')] text-white  flex justify-between flex-col items-center  gap-5 h-150">
+        <div className="bg-[url('https://i.ibb.co.com/xKdbMM1p/Banner.png')] text-white  flex justify-between flex-col items-center  gap-5 h-150">
             <div className="text-center flex justify-center flex-col items-center gap-3.5 flex-1">
                 <h1 className=" text-7xl lg:text-7xl">
                     Discover Your <br /> Next Adventure

@@ -19,7 +19,7 @@ const Navbar = () => {
                     {/* logo */}
                     <div>
                         <Image
-                            src="/assets/wanderlast.png"
+                            src="https://i.ibb.co.com/KcxZ0BQH/Wanderlast.png"
                             alt="Wanderlast Logo"
                             width={160}
                             height={150}
