@@ -11,11 +11,11 @@ const Navbar = () => {
                     {/* desktop nav start */}
                     {/* items link */}
                     <ul className=" hidden md:flex items-center gap-4 lg:gap-7">
-                        <li><Link className="text-sm lg:text-base" href={'/'}>Home</Link></li>
-                        <li><Link className="text-sm lg:text-base" href={'/destinations'}>Destinations</Link></li>
-                        <li><Link className="text-sm lg:text-base" href={'/my-bookings'}>My Bookings</Link></li>
-                        <li><Link className="text-sm lg:text-base" href={'/add-destination'}>Add Destination</Link></li>
-                        <li><Link className="text-sm lg:text-base" href={'/admin'}>Admin</Link></li>
+                        <li><Link className="text-sm lg:text-base hover:text-black/60 transition-all" href={'/'}>Home</Link></li>
+                        <li><Link className="text-sm lg:text-base hover:text-black/60 transition-all" href={'/destinations'}>Destinations</Link></li>
+                        <li><Link className="text-sm lg:text-base hover:text-black/60 transition-all" href={'/my-bookings'}>My Bookings</Link></li>
+                        <li><Link className="text-sm lg:text-base hover:text-black/60 transition-all" href={'/add-destination'}>Add Destination</Link></li>
+                        <li><Link className="text-sm lg:text-base hover:text-black/60 transition-all" href={'/admin'}>Admin</Link></li>
                     </ul>
                     {/* logo */}
                     <div>
@@ -30,9 +30,9 @@ const Navbar = () => {
                         />
                     </div>
                     <ul className=" hidden md:flex items-center gap-4 lg:gap-7">
-                        <li><Link className="text-sm lg:text-base" href={'/profile'}>Profile</Link></li>
-                        <li><Link className="text-sm lg:text-base" href={'/login'}>Login</Link></li>
-                        <li><Link className="text-sm lg:text-base" href={'/signup'}>Signup</Link></li>
+                        <li><Link className="text-sm lg:text-base hover:text-black/60 transition-all" href={'/profile'}>Profile</Link></li>
+                        <li><Link className="text-sm lg:text-base hover:text-black/60 transition-all" href={'/login'}>Login</Link></li>
+                        <li><Link className="text-sm lg:text-base hover:text-black/60 transition-all" href={'/signup'}>Signup</Link></li>
                     </ul>
                     {/* mobile nav start */}
                     <div className="flex md:hidden">

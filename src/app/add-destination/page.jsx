@@ -14,7 +14,7 @@ const AddDestinationPage = () => {
 
     return (
         <div>
-            <Container>
+            <Container className={'max-w-5xl'}>
                 <form
                     onSubmit={onSubmit}
                     className="py-20 space-y-8"
