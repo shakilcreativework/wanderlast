@@ -10,11 +10,12 @@ const Navbar = () => {
                 <nav className="flex justify-between items-center">
                     {/* desktop nav start */}
                     {/* items link */}
-                    <ul className=" hidden md:flex items-center gap-7">
-                        <li><Link href={'/'}>Home</Link></li>
-                        <li><Link href={'/destinations'}>Destinations</Link></li>
-                        <li><Link href={'/my-bookings'}>My Bookings</Link></li>
-                        <li><Link href={'/admin'}></Link>Admin</li>
+                    <ul className=" hidden md:flex items-center gap-4 lg:gap-7">
+                        <li><Link className="text-sm lg:text-base" href={'/'}>Home</Link></li>
+                        <li><Link className="text-sm lg:text-base" href={'/destinations'}>Destinations</Link></li>
+                        <li><Link className="text-sm lg:text-base" href={'/my-bookings'}>My Bookings</Link></li>
+                        <li><Link className="text-sm lg:text-base" href={'/add-destination'}>Add Destination</Link></li>
+                        <li><Link className="text-sm lg:text-base" href={'/admin'}>Admin</Link></li>
                     </ul>
                     {/* logo */}
                     <div>
@@ -28,10 +29,10 @@ const Navbar = () => {
                             className="w-36 md:w-40 lg:w-52 h-auto"
                         />
                     </div>
-                    <ul className=" hidden md:flex items-center gap-4 md:gap-5 lg:gap-7">
-                        <li><Link href={'/profile'}>Profile</Link></li>
-                        <li><Link href={'/login'}>Login</Link></li>
-                        <li><Link href={'/signup'}>Signup</Link></li>
+                    <ul className=" hidden md:flex items-center gap-4 lg:gap-7">
+                        <li><Link className="text-sm lg:text-base" href={'/profile'}>Profile</Link></li>
+                        <li><Link className="text-sm lg:text-base" href={'/login'}>Login</Link></li>
+                        <li><Link className="text-sm lg:text-base" href={'/signup'}>Signup</Link></li>
                     </ul>
                     {/* mobile nav start */}
                     <div className="flex md:hidden">
