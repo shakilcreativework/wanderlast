@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Container from "./shared/Container";
+import Container from "./Container";
 import { IoMenu } from "react-icons/io5";
 
 const Navbar = () => {
